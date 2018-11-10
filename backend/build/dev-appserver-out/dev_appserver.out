@@ -1,21 +1,21 @@
 Warning: Google App Engine Java 7 runtime is deprecated.
 Warning: See https://cloud.google.com/appengine/docs/deprecations/java7
-Nov 10, 2018 10:18:30 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+Nov 10, 2018 10:36:33 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
 INFO: Overwriting system property key 'java.util.logging.config.file', value '/Users/vibhati/Documents/google-cloud-sdk/platform/google_appengine/google/appengine/tools/java/config/sdk/logging.properties' with value 'WEB-INF/logging.properties' from '/Users/vibhati/Desktop/BuildItBigger/BuildItBigger/backend/build/exploded-backend/WEB-INF/appengine-web.xml'
-Nov 10, 2018 10:18:30 PM com.google.apphosting.utils.jetty.JettyLogger info
+Nov 10, 2018 10:36:33 PM com.google.apphosting.utils.jetty.JettyLogger info
 INFO: Logging to JettyLogger(null) via com.google.apphosting.utils.jetty.JettyLogger
-Nov 10, 2018 4:48:30 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+Nov 10, 2018 5:06:33 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
 WARNING: Your working directory, (/Users/vibhati/Desktop/BuildItBigger/BuildItBigger/backend) is not equal to your 
 web application root (/Users/vibhati/Desktop/BuildItBigger/BuildItBigger/backend/build/exploded-backend)
 You will not be able to access files from your working directory on the production server.
 
-Nov 10, 2018 4:48:30 PM com.google.apphosting.utils.jetty.JettyLogger info
+Nov 10, 2018 5:06:33 PM com.google.apphosting.utils.jetty.JettyLogger info
 INFO: jetty-6.1.x
-Nov 10, 2018 4:48:31 PM com.google.apphosting.utils.jetty.JettyLogger info
+Nov 10, 2018 5:06:34 PM com.google.apphosting.utils.jetty.JettyLogger info
 INFO: Started SelectChannelConnector@localhost:8080
-Nov 10, 2018 4:48:31 PM com.google.appengine.tools.development.AbstractModule startup
+Nov 10, 2018 5:06:34 PM com.google.appengine.tools.development.AbstractModule startup
 INFO: Module instance default is running at http://localhost:8080/
-Nov 10, 2018 4:48:31 PM com.google.appengine.tools.development.AbstractModule startup
+Nov 10, 2018 5:06:34 PM com.google.appengine.tools.development.AbstractModule startup
 INFO: The admin console is running at http://localhost:8080/_ah/admin
-Nov 10, 2018 10:18:31 PM com.google.appengine.tools.development.DevAppServerImpl doStart
+Nov 10, 2018 10:36:34 PM com.google.appengine.tools.development.DevAppServerImpl doStart
 INFO: Dev App Server is now running
