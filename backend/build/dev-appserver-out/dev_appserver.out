@@ -1,21 +1,28 @@
-Warning: Google App Engine Java 7 runtime is deprecated.
-Warning: See https://cloud.google.com/appengine/docs/deprecations/java7
-Nov 10, 2018 10:36:33 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+Nov 10, 2018 11:28:01 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
 INFO: Overwriting system property key 'java.util.logging.config.file', value '/Users/vibhati/Documents/google-cloud-sdk/platform/google_appengine/google/appengine/tools/java/config/sdk/logging.properties' with value 'WEB-INF/logging.properties' from '/Users/vibhati/Desktop/BuildItBigger/BuildItBigger/backend/build/exploded-backend/WEB-INF/appengine-web.xml'
-Nov 10, 2018 10:36:33 PM com.google.apphosting.utils.jetty.JettyLogger info
-INFO: Logging to JettyLogger(null) via com.google.apphosting.utils.jetty.JettyLogger
-Nov 10, 2018 5:06:33 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+2018-11-10 23:28:01.315:INFO::main: Logging initialized @537ms to org.eclipse.jetty.util.log.StdErrLog
+2018-11-10 23:28:01.357:WARN:oejs.AbstractConnector:main: Ignoring deprecated socket close linger time
+Nov 10, 2018 5:58:01 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
 WARNING: Your working directory, (/Users/vibhati/Desktop/BuildItBigger/BuildItBigger/backend) is not equal to your 
 web application root (/Users/vibhati/Desktop/BuildItBigger/BuildItBigger/backend/build/exploded-backend)
 You will not be able to access files from your working directory on the production server.
 
-Nov 10, 2018 5:06:33 PM com.google.apphosting.utils.jetty.JettyLogger info
-INFO: jetty-6.1.x
-Nov 10, 2018 5:06:34 PM com.google.apphosting.utils.jetty.JettyLogger info
-INFO: Started SelectChannelConnector@localhost:8080
-Nov 10, 2018 5:06:34 PM com.google.appengine.tools.development.AbstractModule startup
+2018-11-10 23:28:01.678:INFO:oejs.Server:main: jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_152-release-1024-b01
+2018-11-10 23:28:02.013:INFO:oejsh.ContextHandler:main: Started c.g.a.t.d.j.DevAppEngineWebAppContext@6caf0677{/,file:///Users/vibhati/Desktop/BuildItBigger/BuildItBigger/backend/build/exploded-backend/,AVAILABLE}{/Users/vibhati/Desktop/BuildItBigger/BuildItBigger/backend/build/exploded-backend}
+2018-11-10 23:28:02.014:INFO:oejs.session:main: DefaultSessionIdManager workerName=node0
+2018-11-10 23:28:02.014:INFO:oejs.session:main: node0 Scavenging disabled
+2018-11-10 23:28:02.028:INFO:oejs.AbstractConnector:main: Started NetworkTrafficSelectChannelConnector@1caa0244{HTTP/1.1,[http/1.1]}{localhost:8080}
+2018-11-10 23:28:02.046:INFO:oejs.Server:main: Started @1268ms
+Nov 10, 2018 5:58:02 PM com.google.appengine.tools.development.AbstractModule startup
 INFO: Module instance default is running at http://localhost:8080/
-Nov 10, 2018 5:06:34 PM com.google.appengine.tools.development.AbstractModule startup
+Nov 10, 2018 5:58:02 PM com.google.appengine.tools.development.AbstractModule startup
 INFO: The admin console is running at http://localhost:8080/_ah/admin
-Nov 10, 2018 10:36:34 PM com.google.appengine.tools.development.DevAppServerImpl doStart
+Nov 10, 2018 11:28:02 PM com.google.appengine.tools.development.DevAppServerImpl doStart
 INFO: Dev App Server is now running
+2018-11-10 23:34:46.528:INFO:oejs.AbstractConnector:pool-1-thread-1: Stopped NetworkTrafficSelectChannelConnector@1caa0244{HTTP/1.1,[http/1.1]}{localhost:8080}
+2018-11-10 23:34:46.530:INFO:oejsh.ContextHandler:pool-1-thread-1: Stopped c.g.a.t.d.j.DevAppEngineWebAppContext@6caf0677{/,file:///Users/vibhati/Desktop/BuildItBigger/BuildItBigger/backend/build/exploded-backend/,UNAVAILABLE}{/Users/vibhati/Desktop/BuildItBigger/BuildItBigger/backend/build/exploded-backend}
+Nov 10, 2018 11:34:46 PM com.google.appengine.tools.development.AbstractModule shutdown
+INFO: Shutting down module instance default
+Shutting down.
+Nov 10, 2018 11:34:46 PM com.google.appengine.api.datastore.dev.LocalDatastoreService cleanupActiveServices
+INFO: scheduler shutting down.
