@@ -1,28 +1,21 @@
-Nov 10, 2018 11:54:21 PM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+Nov 11, 2018 12:34:30 AM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
 INFO: Overwriting system property key 'java.util.logging.config.file', value '/Users/vibhati/Documents/google-cloud-sdk/platform/google_appengine/google/appengine/tools/java/config/sdk/logging.properties' with value 'WEB-INF/logging.properties' from '/Users/vibhati/Desktop/BuildItBigger/BuildItBigger/backend/build/exploded-backend/WEB-INF/appengine-web.xml'
-2018-11-10 23:54:21.776:INFO::main: Logging initialized @607ms to org.eclipse.jetty.util.log.StdErrLog
-2018-11-10 23:54:21.834:WARN:oejs.AbstractConnector:main: Ignoring deprecated socket close linger time
-Nov 10, 2018 6:24:22 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+2018-11-11 00:34:30.155:INFO::main: Logging initialized @516ms to org.eclipse.jetty.util.log.StdErrLog
+2018-11-11 00:34:30.193:WARN:oejs.AbstractConnector:main: Ignoring deprecated socket close linger time
+Nov 10, 2018 7:04:30 PM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
 WARNING: Your working directory, (/Users/vibhati/Desktop/BuildItBigger/BuildItBigger/backend) is not equal to your 
 web application root (/Users/vibhati/Desktop/BuildItBigger/BuildItBigger/backend/build/exploded-backend)
 You will not be able to access files from your working directory on the production server.
 
-2018-11-10 23:54:22.221:INFO:oejs.Server:main: jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_152-release-1024-b01
-2018-11-10 23:54:22.658:INFO:oejsh.ContextHandler:main: Started c.g.a.t.d.j.DevAppEngineWebAppContext@6caf0677{/,file:///Users/vibhati/Desktop/BuildItBigger/BuildItBigger/backend/build/exploded-backend/,AVAILABLE}{/Users/vibhati/Desktop/BuildItBigger/BuildItBigger/backend/build/exploded-backend}
-2018-11-10 23:54:22.658:INFO:oejs.session:main: DefaultSessionIdManager workerName=node0
-2018-11-10 23:54:22.658:INFO:oejs.session:main: node0 Scavenging disabled
-2018-11-10 23:54:22.673:INFO:oejs.AbstractConnector:main: Started NetworkTrafficSelectChannelConnector@1caa0244{HTTP/1.1,[http/1.1]}{localhost:8080}
-2018-11-10 23:54:22.689:INFO:oejs.Server:main: Started @1520ms
-Nov 10, 2018 6:24:22 PM com.google.appengine.tools.development.AbstractModule startup
+2018-11-11 00:34:30.517:INFO:oejs.Server:main: jetty-9.4.12.v20180830; built: 2018-08-30T13:59:14.071Z; git: 27208684755d94a92186989f695db2d7b21ebc51; jvm 1.8.0_152-release-1024-b01
+2018-11-11 00:34:30.849:INFO:oejsh.ContextHandler:main: Started c.g.a.t.d.j.DevAppEngineWebAppContext@6caf0677{/,file:///Users/vibhati/Desktop/BuildItBigger/BuildItBigger/backend/build/exploded-backend/,AVAILABLE}{/Users/vibhati/Desktop/BuildItBigger/BuildItBigger/backend/build/exploded-backend}
+2018-11-11 00:34:30.849:INFO:oejs.session:main: DefaultSessionIdManager workerName=node0
+2018-11-11 00:34:30.849:INFO:oejs.session:main: node0 Scavenging disabled
+2018-11-11 00:34:30.863:INFO:oejs.AbstractConnector:main: Started NetworkTrafficSelectChannelConnector@1caa0244{HTTP/1.1,[http/1.1]}{localhost:8080}
+2018-11-11 00:34:30.878:INFO:oejs.Server:main: Started @1240ms
+Nov 10, 2018 7:04:30 PM com.google.appengine.tools.development.AbstractModule startup
 INFO: Module instance default is running at http://localhost:8080/
-Nov 10, 2018 6:24:22 PM com.google.appengine.tools.development.AbstractModule startup
+Nov 10, 2018 7:04:30 PM com.google.appengine.tools.development.AbstractModule startup
 INFO: The admin console is running at http://localhost:8080/_ah/admin
-Nov 10, 2018 11:54:22 PM com.google.appengine.tools.development.DevAppServerImpl doStart
+Nov 11, 2018 12:34:30 AM com.google.appengine.tools.development.DevAppServerImpl doStart
 INFO: Dev App Server is now running
-2018-11-10 23:56:18.541:INFO:oejs.AbstractConnector:pool-1-thread-1: Stopped NetworkTrafficSelectChannelConnector@1caa0244{HTTP/1.1,[http/1.1]}{localhost:8080}
-2018-11-10 23:56:18.544:INFO:oejsh.ContextHandler:pool-1-thread-1: Stopped c.g.a.t.d.j.DevAppEngineWebAppContext@6caf0677{/,file:///Users/vibhati/Desktop/BuildItBigger/BuildItBigger/backend/build/exploded-backend/,UNAVAILABLE}{/Users/vibhati/Desktop/BuildItBigger/BuildItBigger/backend/build/exploded-backend}
-Nov 10, 2018 11:56:18 PM com.google.appengine.tools.development.AbstractModule shutdown
-INFO: Shutting down module instance default
-Shutting down.
-Nov 10, 2018 11:56:18 PM com.google.appengine.api.datastore.dev.LocalDatastoreService cleanupActiveServices
-INFO: scheduler shutting down.
